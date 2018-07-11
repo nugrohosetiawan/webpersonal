@@ -1,0 +1,284 @@
+#mainNav{
+  background-color: transparent;
+
+}
+
+.bawahin{
+  padding-top: 50px !important;
+}
+.navbar-brand{
+  color:black !important;
+}
+
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.navbar{
+  color: #fff;
+}
+
+.jumbotron h1{
+    color: #fff;
+}
+
+.jumbotron p{
+  color: #fff;
+}
+
+.gambarutama{
+
+	width: 250px;
+	height: 250px;
+}
+.gambarkedua{
+
+	width: 150px;
+	height: 150px;
+}
+.owl-carousel
+{
+    margin-bottom: 20px;
+
+}
+
+
+.owl-carousel .owl-dots
+{
+    position: absolute;
+    bottom: -10px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: row;
+
+    width: 100%;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+     background-color: #fcfcfc;
+}
+
+.owl-carousel .owl-dots .owl-dot
+{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50%;
+    background-color: #1748a7;
+}
+
+.owl-carousel .owl-dots .owl-dot.active
+{
+    background-color: #0199d6;
+}
+
+.owl-carousel .owl-dots .owl-dot:not(:last-child)
+{
+    margin-right: .75rem;
+}
+/* Testimonial card */
+.testimonial-card
+{
+    margin-bottom: 1.875rem;
+    padding: 1.25rem;
+
+    border: 1px solid #d8d8d8;
+    background-color: #2eccf3;
+}
+
+.testimonial-card h4
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+
+    margin-top: 0;
+    margin-bottom: .75rem;
+
+    color: #222;
+}
+
+.testimonial-card span
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: .9375rem;
+    font-weight: 300;
+
+    display: block;
+
+    margin-bottom: 2.5rem;
+
+    color: #0199d6;
+}
+
+.testimonial-card p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.4;
+
+    margin-bottom: 0;
+}
+
+.footerweb{
+	background-color: #2C3E50;
+	color: white;
+}
+
+#main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+}
+
+article{
+
+    -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.tentang {
+    margin-top: 40px;
+}
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+
+a:focus {
+  outline: none;
+}
+
+.portfolioFilter {
+  padding: 15px 0;
+}
+
+.portfolioFilter a {
+  margin-right: 6px;
+  color: #666;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 4px 15px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.portfolioFilter a.current {
+  background: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  color: #f9f9f9;
+}
+.portfolioContainer{
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+img {
+  margin: 5px;
+  max-width:100%;
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity;
+}
