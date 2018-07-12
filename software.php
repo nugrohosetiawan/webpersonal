@@ -70,6 +70,20 @@
                     }
                 }
             });
+
+
+		     $(document).scroll(function(){
+		          
+		            var scroll = $(this).scrollTop();
+		            if (scroll > 50) {
+		              $("#mainNav").css("background-color" , "#f8f9fa");
+		            }
+
+		            else{
+		              $("#mainNav").css("background-color" , "transparent");   
+		            }
+		         
+		        });
 			
 				
 

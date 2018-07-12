@@ -40,6 +40,24 @@
 	</div>
 </div>
 	<?php include("include/footer.php");?>
+	<script type="text/javascript">
+		   
+     $(document).ready(function(){
+          $(window).scroll(function(){
+            var scroll = $(window).scrollTop();
+            if (scroll > 50) {
+              $("#mainNav").css("background" , "#f8f9fa");
+            }
+
+            else{
+              $("#mainNav").css("background" , "transparent");   
+            }
+          })
+        });
+
+
+		
+	</script>
 
 </body>
 </html>

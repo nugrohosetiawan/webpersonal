@@ -205,7 +205,19 @@
                     }
                 }
             });
-			
+
+        $(document).ready(function(){
+          $(window).scroll(function(){
+            var scroll = $(window).scrollTop();
+            if (scroll > 600) {
+              $("#mainNav").css("background" , "#333");
+            }
+
+            else{
+              $("#mainNav").css("background" , "transparent");   
+            }
+          })
+        });
 				
 
 
