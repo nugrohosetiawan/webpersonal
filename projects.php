@@ -30,11 +30,6 @@
 			    </ul> </br>
 			Presented an Published in : ICITISEE 2017, Indexed in IEEE Xplore  </br>
 			Link : https://ieeexplore.ieee.org/document/8285495/
-
-			
-
-		
-
 		<hr class="my-4">
 		</article>
 	</div>
